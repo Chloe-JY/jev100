@@ -22,7 +22,7 @@ node scripts/doctor.mjs
 
 Set `AI_GATEWAY_API_KEY` in the **process environment** before a Jev run. `GITHUB_TOKEN` is optional for higher GitHub API limits. The IT桔子 demonstration also needs `ITJUZI_MCP_API_KEY`. Keep keys outside this folder and Git. See [setup](references/setup.md).
 
-To install as a local Codex skill, copy the complete `jev100-skill` folder into your Codex skills directory. Keeping it in a GitHub repository also lets others review and install the same folder.
+To install as a local Codex skill, clone this repository into your Codex skills directory as `jev100-skill` (`git clone https://github.com/Chloe-JY/jev100 jev100-skill`). `SKILL.md` sits at the repository root, so the clone is the skill folder.
 
 ## Run a GitHub shortlist
 
